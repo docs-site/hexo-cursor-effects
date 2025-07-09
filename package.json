@@ -1,6 +1,6 @@
 {
   "name": "@docs-site/hexo-cursor-effects",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "site-hexo中使用的鼠标效果js脚本",
   "main": "index.js",
   "scripts": {
@@ -8,6 +8,19 @@
     "format:check": "prettier . --check",
     "format:fix": "prettier . --write"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/docs-site/hexo-cursor-effects.git"
+  },
+  "keywords": [
+    "cursor",
+    "next",
+    "effects"
+  ],
   "author": "sumu",
-  "license": "MIT"
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/docs-site/hexo-cursor-effects/issues"
+  },
+  "homepage": "https://github.com/docs-site/hexo-cursor-effects#readme"
 }
