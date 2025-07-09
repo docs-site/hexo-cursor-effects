@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>限定区域点击测试</title>
+	<style>
+		#click-zone {
+			width: 100%;
+			height: 200px;
+			border: 2px dashed #007bff;
+			background-color: rgba(0, 123, 255, 0.1);
+			margin-bottom: 20px;
+			position: relative;
+		}
+	</style>
+</head>
+
+<body>
+	<div id="click-zone">
+		<div id="click-show-text" data-mobile="true" data-text="创新,协作,专注" data-fontsize="18px" data-random="true"
+			style="pointer-events: none; position: absolute; width: 100%; height: 100%;">
+			<p>蓝色虚线区域内点击触发文字特效(高度200px,宽度100%)</p>
+		</div>
+	</div>
+	<script src="../src/click/showText.js"></script>
+</body>
+
+</html>
