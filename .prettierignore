@@ -1,0 +1,25 @@
+dist/
+
+# IDEs
+.idea/
+.vscode/
+
+# Project files
+LICENSE
+README.md
+bin
+dist
+scaffolds
+# For development
+.gitignore
+.prettierignore
+.prettierrc
+node_modules/
+
+package.json
+package-lock.json
+
+tsconfig.json
+tsconfig.prod.json
+
+eslint.config.mjs

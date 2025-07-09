@@ -1,0 +1,13 @@
+{
+  "name": "@docs-site/hexo-cursor-effects",
+  "version": "1.0.0",
+  "description": "site-hexo中使用的鼠标效果js脚本",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format:check": "prettier . --check",
+    "format:fix": "prettier . --write"
+  },
+  "author": "sumu",
+  "license": "MIT"
+}
